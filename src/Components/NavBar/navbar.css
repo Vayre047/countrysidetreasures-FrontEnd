@@ -1,0 +1,13 @@
+.navbarContainer{
+    background-color: #99ffcc;
+    width: 100%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbarConfiguration{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
