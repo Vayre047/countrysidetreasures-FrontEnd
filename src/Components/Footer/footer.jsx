@@ -9,7 +9,7 @@ function Footer(){
         <div className="bg-white shadow dark:bg-green-600 w-full mx-auto footerPosition">
             <div className="max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
                 <span className="text-sm text-white sm:text-center dark:text-white">© 2023 
-                    <Link to="/"class="hover:underline">Country Side Treasures™</Link>. 
+                    <Link to="/"className="hover:underline">Country Side Treasures™</Link>. 
                     All Rights Reserved.
                 </span>
                 <div className="flex flex-wrap justify-end mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0 gap-x-4">
