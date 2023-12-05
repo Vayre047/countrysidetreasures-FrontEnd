@@ -6,22 +6,22 @@ import axios from 'axios';
 const API_URL = "http://localhost:5005";
 
 function Fruits(){
-    const [ fruits, setFruits ] = useState();
+    const [ products, setProducts ] = useState();
 
     useEffect(() =>{
-        axios.get(`${API_URL}/api/fruits`)
-        .then((response) => setFruits(response.data))
+        axios.get(`${API_URL}/api/products`)
+            .then((response) => setProducts(response.data))
         .then((error) => {console.log(error)});
     }, []);
 
     return(
         <div>
-            {fruits.map((fruit) => {
+            {products.map((product) => {
                 return(
-                    <div key={fruit._id}>
-                        <h1>{fruit.name}</h1>
-                        <p>{fruit.description}</p>
-                        <span>{fruit.price}</span>
+                    <div key={product._id}>
+                        <h1>{product.name}</h1>
+                        <p>{product.description}</p>
+                        <span>{product.price}</span>
                     </div>
                 )
             })}
