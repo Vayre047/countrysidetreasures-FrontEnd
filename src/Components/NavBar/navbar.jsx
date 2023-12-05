@@ -6,7 +6,7 @@ function NavBar(){
 
     return(
         <div>
-            <nav className="bg-white border-green-100 dark:bg-green-600 flex items-center py-4">
+            <nav className="bg-white navbarContainer border-green-100 dark:bg-green-600 flex items-center py-4">
                 <div className='ps-8'>
                     <Link to="/" className="flex justify-start w-1/6">
                         <img src={homeImage} className="h-8 mr-3" alt="Flowbite Logo" />

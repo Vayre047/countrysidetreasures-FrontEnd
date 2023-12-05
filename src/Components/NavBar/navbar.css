@@ -1,9 +1,5 @@
 .navbarContainer{
-    background-color: #99ffcc;
-    width: 100%;
-    height: 5%;
-    display: flex;
-    flex-direction: row;
+    background-color: linear-gradient(#1aff66, #009933);
 }
 
 .navbarConfiguration{

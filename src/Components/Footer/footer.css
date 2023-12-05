@@ -1,3 +1,7 @@
+.footerContainer{
+    background-color: linear-gradient(#1aff66, #009933);
+}
+
 .footerPosition{
     position: fixed;
     bottom: 0;

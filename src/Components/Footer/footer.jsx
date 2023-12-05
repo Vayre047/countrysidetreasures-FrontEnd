@@ -6,7 +6,7 @@ function Footer(){
     const github = "../../../Images/github.png";
 
     return(
-        <div className="bg-white shadow dark:bg-green-600 w-full mx-auto footerPosition">
+        <div className="bg-white shadow footerContainer dark:bg-green-600 w-full mx-auto footerPosition">
             <div className="max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
                 <span className="text-sm text-white sm:text-center dark:text-white">© 2023 
                     <Link to="/"className="hover:underline">Country Side Treasures™</Link>. 
